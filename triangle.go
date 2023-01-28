@@ -30,12 +30,15 @@ func main() {
 	}
 
 	tri2 := triangle{
-		height: 20,
-		base:   18,
+		height: 30,
+		base:   15,
 	}
 
-	fmt.Println(tri1.Area(), "\n")
-	fmt.Println(tri1.Perimeter(), "\n")
-	fmt.Println(tri2.Area(), "\n")
-	fmt.Println(tri2.Perimeter(), "\n")
+	fmt.Println("The Area is: ", tri1.Area())
+	fmt.Printf("Using%+v \n", tri1)
+	fmt.Println("The Perimeter is: ", tri1.Perimeter())
+
+	fmt.Println("\nThe Area is: ", tri2.Area())
+	fmt.Printf("Using%+v \n", tri2)
+	fmt.Println("The Perimeter is: ", tri2.Perimeter())
 }
