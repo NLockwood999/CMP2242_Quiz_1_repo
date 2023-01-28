@@ -22,7 +22,7 @@ func (c circle) Perimeter() float64 {
 	return (2 * float64(b)) * c.radius
 }
 
-// Inside the 'main' function create a variable of type 'triangle'
+// Inside the main function create a variable of type circle
 func main() {
 	cir1 := circle{
 		radius: 15,
